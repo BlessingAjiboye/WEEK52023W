@@ -22,7 +22,7 @@ router.get('/edit/:id', bookController.displayEditPage);
 
 
 /*POST Route for processing the Edit page - UPDATE Operation*/
-router.get('/edit/id', bookController.processEditPage);
+router.post('/edit/:id', bookController.processEditPage);
 
 
 /*GET to perform Deletion - DELETE Operation */
